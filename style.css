@@ -10,6 +10,7 @@
 }
 
 .startBlock {
+  margin: 0;
   background: #FCFCFD;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -32,8 +33,6 @@
 }
 
 .dragonflyMove {
-  display: grid;
-  place-items: center;
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
@@ -44,6 +43,7 @@
 }
 
 .services {
+  margin: 0;
   text-align: center;
   padding: 30px 0;
 }
@@ -57,6 +57,7 @@
 }
 
 .nuestrosTrabajos {
+  margin: 0;
   text-align: center;
   color: white;
   background: rgb(51, 28, 171);
@@ -125,6 +126,9 @@
   transform: rotateY(-180deg);
 }
 
+footer {
+  margin: 0 !important;
+}
 footer .login-box {
   padding: 40px;
   box-sizing: border-box;
