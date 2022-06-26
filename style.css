@@ -300,6 +300,7 @@ footer .login-box a span:nth-child(4) {
   }
 }
 footer .navFooter {
+  text-align: center;
   display: grid;
   place-items: center;
 }
