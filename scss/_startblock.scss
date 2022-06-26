@@ -1,0 +1,27 @@
+.startBlock{
+    background: #FCFCFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F7F6FB, #FCFCFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F7F6FB, #FCFCFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.textFirstBlock{
+    display: grid;
+    place-items: center;
+    padding: 50px;
+    .textFirstBlockColor{
+        color:$color3;
+    }
+    button{
+        margin: 20px;
+        background-color: $color3;
+        color:white;
+    }
+}
+
+.dragonflyMove{
+    display: grid;
+    place-items:center;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("https://svgsilh.com/png-1024/1541241.png");
+}

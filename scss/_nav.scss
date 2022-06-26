@@ -1,0 +1,11 @@
+.navbar{
+    background-color: $color1;
+    .nav-link:focus, .nav-link:hover {
+        color: $color3;
+    }
+    a{
+        color:black;
+    }
+    
+    
+}
