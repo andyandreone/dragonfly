@@ -3,10 +3,13 @@
   background-color: rgba(200, 200, 200, 0.36);
 }
 .navbar .nav-link:focus, .navbar .nav-link:hover {
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
 }
 .navbar a {
   color: black;
+}
+.navbar .logo {
+  height: 30px;
 }
 
 .startBlock {
@@ -24,22 +27,38 @@
   padding: 50px;
 }
 .textFirstBlock .textFirstBlockColor {
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
 }
 .textFirstBlock button {
   margin: 20px;
-  background-color: rgb(51, 28, 171);
+  background-color: rgb(0, 84, 20);
   color: white;
 }
+.textFirstBlock button:hover a {
+  color: black;
+}
+.textFirstBlock button a {
+  color: white;
+  text-decoration: none;
+}
 
-.dragonflyMove {
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-  background-image: url("https://svgsilh.com/png-1024/1541241.png");
+.logoMove {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.logoMove .wordCreative {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.logoMove .wordCode {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(0, 84, 20);
+}
+.logoMove img {
+  height: 200px;
 }
 
 .services {
@@ -49,7 +68,7 @@
 }
 .services i {
   font-size: 50px;
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
 }
 .services .borderServices {
   border-right: 0.2px solid rgba(200, 200, 200, 0.36);
@@ -60,7 +79,7 @@
   margin: 0;
   text-align: center;
   color: white;
-  background: rgb(51, 28, 171);
+  background: rgb(0, 84, 20);
 }
 .nuestrosTrabajos h2 {
   margin: 30px 0;
@@ -167,14 +186,14 @@ footer .login-box .user-box input:focus ~ label,
 footer .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
   font-size: 12px;
 }
 footer .login-box form a {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -184,10 +203,10 @@ footer .login-box form a {
   letter-spacing: 4px;
 }
 footer .login-box a:hover {
-  background: rgb(51, 28, 171);
+  background: rgb(0, 84, 20);
   color: black;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgb(51, 28, 171), 0 0 25px rgb(51, 28, 171), 0 0 50px rgb(51, 28, 171), 0 0 100px rgb(51, 28, 171);
+  box-shadow: 0 0 5px rgb(0, 84, 20), 0 0 25px rgb(0, 84, 20), 0 0 50px rgb(0, 84, 20), 0 0 100px rgb(0, 84, 20);
 }
 footer .login-box a span {
   position: absolute;
@@ -198,7 +217,7 @@ footer .login-box a span:nth-child(1) {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgb(51, 28, 171));
+  background: linear-gradient(90deg, transparent, rgb(0, 84, 20));
   -webkit-animation: btn-anim1 1s linear infinite;
           animation: btn-anim1 1s linear infinite;
 }
@@ -223,7 +242,7 @@ footer .login-box a span:nth-child(2) {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, rgb(51, 28, 171));
+  background: linear-gradient(180deg, transparent, rgb(0, 84, 20));
   -webkit-animation: btn-anim2 1s linear infinite;
           animation: btn-anim2 1s linear infinite;
   -webkit-animation-delay: 0.25s;
@@ -250,7 +269,7 @@ footer .login-box a span:nth-child(3) {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, rgb(51, 28, 171));
+  background: linear-gradient(270deg, transparent, rgb(0, 84, 20));
   -webkit-animation: btn-anim3 1s linear infinite;
           animation: btn-anim3 1s linear infinite;
   -webkit-animation-delay: 0.5s;
@@ -277,7 +296,7 @@ footer .login-box a span:nth-child(4) {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, rgb(51, 28, 171));
+  background: linear-gradient(360deg, transparent, rgb(0, 84, 20));
   -webkit-animation: btn-anim4 1s linear infinite;
           animation: btn-anim4 1s linear infinite;
   -webkit-animation-delay: 0.75s;
@@ -306,5 +325,5 @@ footer .navFooter {
 }
 footer .social {
   font-size: 50px;
-  color: rgb(51, 28, 171);
+  color: rgb(0, 84, 20);
 }/*# sourceMappingURL=style.css.map */

@@ -15,12 +15,39 @@
         margin: 20px;
         background-color: $color3;
         color:white;
+        &:hover{
+            a{
+                color:black;
+            }
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
     }
+
+    
 }
 
-.dragonflyMove{
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-image: url("https://svgsilh.com/png-1024/1541241.png");
+.logoMove{
+//     background-position: center; /* Center the image */
+//     background-repeat: no-repeat; /* Do not repeat the image */
+//     background-size: cover; /* Resize the background image to cover the entire container */
+//     background-image: url("../img/logo.png");
+text-align: center;
+display: grid;
+place-items:center;
+.wordCreative{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+.wordCode{
+    font-size: 35px;
+    font-weight: bold;
+    color: $color3;
+}
+img{
+    height: 200px;
+}
 }
